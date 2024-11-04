@@ -1,0 +1,143 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+   width: 100%;
+   height: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px;
+}
+.startheader{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 33%;
+}
+.searchbox{
+   
+    display: flex;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.searchbox input{
+    background-color: transparent;
+    outline-width: 0;
+    
+    border: none;
+}
+#avtar1{
+    border-radius: 60%;
+}
+
+
+.middleheader{
+    display: flex;
+    gap: 70px;
+    
+    padding: 3px;
+}
+
+.endheader{
+    width: 33%;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+.endicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.myprofile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.endicons{
+    display: flex;
+}
+.sidebar{
+    background-color: #eff2f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 0px;
+    width: 25%;
+}
+.sidebarrow{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sidebarrow img{
+    border-radius: 50%;
+}
+.sidebarrow .material-symbols-outlined{
+    font-size: xx-large;
+    color: #2e81f4;
+}
+.middleheader .material-symbols-outlined{
+    font-size: x-large;
+}
+.main_body{
+    display: flex;
+    
+
+}
+.middlebody{
+    background-color: #eff2f5;
+    width: 60%;
+    padding: 20px;
+}
+.storyreel{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.story{
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.story img{
+    text-align: left;
+    vertical-align: top;
+    border-radius: 50px;
+}
+.story h4{
+    text-align: center;
+}
+.endbar{
+    width: 15%;
+}
+.sideimg{
+    display: flex;
+    background-size: cover;
+    
+}
+.sideimg img{
+    text-align: left;
+    vertical-align: top;
+    border-radius: 50px;
+}
+.sidefb{
+    display: flex;
+    flex-direction: column;
+}
+.endbar{
+    background-color: #eff2f5;
+}
